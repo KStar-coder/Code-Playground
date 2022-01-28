@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>web tech</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  width: 500px;
+  height: 200px;
+  padding: 30px;
+  text-align: left;
+  font-size: 35px;
+  border-style: solid;
+ border-color: black;
+}
+
+nav {
+  float: left;
+  width: 200px;
+  height: 300px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>KIIT UNIVERSITY</h2>
+</header>
+<section style="width: 500px;border-style: solid;
+border-color: grey;">
+  <nav>
+    <ul>
+      <li><a href="https://kiitportal.kiituniversity.net/irj/portal/">Login</a></li>
+      <br>
+      <li><a href="https://kiit.ac.in">About KIIT</a></li>
+      <br>
+      <li><a href="https://www.amazon.in/?tag=operadesktop-21">Feedback</a></li>
+    </ul>
+  </nav>
+</section>
+</body>
+</html>

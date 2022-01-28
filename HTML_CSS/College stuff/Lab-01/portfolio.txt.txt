@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<head>
+	<title>PORTFOLIO</title>
+</head>
+
+<body style="background-color: lavenderblush">
+	<img src="https://cdn.vox-cdn.com/thumbor/nkRn8yL_GPRg2D75mjmfibO8N08=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19266858/joker2.jpg" alt="Kaustav's Photo"
+		height="200px" width="200px">
+	<style type="text/css">
+		img {
+			object-fit: cover;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 50%;
+		}
+	</style>
+	<h1 style="background-color: blueviolet; color: white; font-weight: bold; text-align: center;">Kaustav Sharma</h1>
+	<h2 style="text-align: center;">
+		<pre>Student | Engineer | CSE | KIIT | Android App Developer</pre>
+	</h2>
+	<hr>
+	<h1>About Kaustav:</h1>
+	<p>Hey there! This is <b>Kaustav Sharma</b> from Kolkata, West Bengal. I am currently pursuing <b>Computer Science
+			Engineering</b> at <b>Kalinga Institute of Industrial Technology</b> BBSR. Thank you for viewing this page.
+	</p>
+	<hr>
+	<h1>Educational Qualification</h1>
+	<ul>
+		<li>Computer Science Engineer</li>
+		<li>Part Time App Developer</li>
+		<li>Musician</li>
+	</ul>
+	<hr>
+	<h1><u>Programming Languages</u></h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Languages &nbsp</th>
+				<th>&nbsp Information</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>C</td>
+				<td>&#9733;&#9733;&#9733;&#9733;&#9734;</td>
+			</tr>
+			<tr>
+				<td>C++</td>
+				<td>&#9733;&#9733;&#9733;&#9734;&#9734;</td>
+			</tr>
+			<tr>
+				<td>Python</td>
+				<td>&#9733;&#9733;&#9734;&#9734;&#9734;</td>
+			</tr>
+		</tbody>
+	</table>
+	<hr>
+	<h1>Contact Me:</h1>
+	<p>Email ID :- <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">2005731@kiit.ac.in</a></p>
+	<p>Phone No. :- <a href="https://web.whatsapp.com/"> 9051150179</a></p>
+	<hr>
+</body>
+
+</html>

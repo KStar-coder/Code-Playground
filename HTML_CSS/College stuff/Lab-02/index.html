@@ -1,0 +1,88 @@
+<!-- User registration form implementing internal css -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: antiquewhite;" >
+   
+    <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Registration form</h1>
+    <div style="background-color: aqua; margin: 30px; padding: 20px;">
+    <form action="mailto: sharmakaustav04@gmail.com">
+        <label for="name">Name</label>
+        <input
+        type="text"
+        name="NameField"
+        id="name"
+        placeholder="Enter your name"
+        required
+        />
+
+        <br>
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input
+        type="email"
+        name="EmailField"
+        id="EMail"
+        placeholder="Enter your email ID"
+        required
+        />
+
+        <br>
+        <br>
+        <br>
+
+        <label for="DOB">Date of Birth</label>
+        <input
+        type="date"
+        name="DOBField"
+        id="DOB"
+        placeholder="dd/mm/yy"
+        required
+        />
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4>Gender</h4>
+        <label for="Gender">Male</label>
+        <input type="radio" name = "GenderField" id="Gender"/>
+        
+        <label for="Gender">Female</label>
+        <input type="radio" name = "GenderField" id="Gender"/>
+        
+        <label for="Gender">Others</label>
+        <input type="radio" name = "GenderField" id="Gender"/>
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <label for="message">Address</label>
+        <br>
+        <textarea name="message"
+            id="msgField"
+            rows="5"
+            cols="30"
+        
+        ></textarea>
+
+        <br>
+        <br>
+        <input type="submit"
+        name="submit field"
+        id="submit"
+        value="submit"/>
+
+
+    </form>
+</div>
+</body>
+</html>
